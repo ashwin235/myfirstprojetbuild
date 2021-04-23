@@ -5,7 +5,7 @@
 int main() {    
 
   bignumber();
-printf("\n")  
+printf("\n");  
   factnumber();
    
     
