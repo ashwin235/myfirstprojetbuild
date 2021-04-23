@@ -5,7 +5,8 @@
 int main() {    
 
   bignumber();
-    factnumber();
+printf("\n")  
+  factnumber();
    
     
     return 0;

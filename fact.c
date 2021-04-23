@@ -1,10 +1,10 @@
 #include<stdio.h>  
 void factnumber()    
 {    
- int i,fact=1,number=6;    
- printf("Enter a number: ");    
-      
-    for(i=1;i<=number;i++){    
+ int i,fact=1,n;    
+ printf("Enter a number:\n ");    
+scanf("%d",n)      
+    for(i=1;i<=n;i++){    
       fact=fact*i;    
   }    
   printf("Factorial of %d is: %d",number,fact);    
