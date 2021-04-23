@@ -9,3 +9,6 @@ Big.o: big.c
 
 fact.o: fact.c
 	gcc -c fact.c
+
+clean:
+	rm *.o
