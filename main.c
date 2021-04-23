@@ -1,11 +1,12 @@
 #include <stdio.h>
-#include "big.c"
-#include "fact.c"
+#include "big.h"
+#include "fact.h"
+
 int main() {    
 
-   big();
-    fact();
-    
+  bignumber();
+    factnumber();
+   
     
     return 0;
 }

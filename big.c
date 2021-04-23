@@ -1,17 +1,18 @@
 #include<stdio.h>
 
-void big()
+ void bignumber()
 {
 
-int num1, num2;
-scanf(“%d %d”,&num1,&num2);
+int num1 =10;
+int num2=20; 
+
 if(num1 > num2)
 { 
-printf(“%d is greater”,num1);
+printf("%d is greater",num1);
 }
 else
 {
-printf(“%d is greater”,num2);
+printf("%d is greater",num2);
 }
 
 }
